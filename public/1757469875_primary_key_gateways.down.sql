@@ -1,0 +1,1 @@
+ALTER TABLE IF EXISTS ONLY public.gateways DROP CONSTRAINT IF EXISTS gateways_pkey;

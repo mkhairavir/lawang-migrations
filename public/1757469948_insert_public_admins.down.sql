@@ -1,0 +1,1 @@
+DELETE FROM public.admins WHERE id = '02bb6708-50e0-400b-8191-631f66512a96';

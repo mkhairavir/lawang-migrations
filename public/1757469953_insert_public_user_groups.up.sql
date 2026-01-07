@@ -1,0 +1,1 @@
+INSERT INTO public.user_groups VALUES ('194cccb1-7fef-45b1-82a7-673f5fa0242c', true, '2025-09-10 02:03:11.690531+00', '2025-09-10 02:03:11.690531+00', NULL, NULL, NULL, NULL, 'ADMIN', 'admin');

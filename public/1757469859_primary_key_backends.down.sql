@@ -1,0 +1,1 @@
+ALTER TABLE IF EXISTS ONLY public.backends DROP CONSTRAINT IF EXISTS backends_pkey;

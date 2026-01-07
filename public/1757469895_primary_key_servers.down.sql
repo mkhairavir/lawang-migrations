@@ -1,0 +1,1 @@
+ALTER TABLE IF EXISTS ONLY public.servers DROP CONSTRAINT IF EXISTS servers_pkey;

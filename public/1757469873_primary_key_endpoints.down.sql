@@ -1,0 +1,1 @@
+ALTER TABLE IF EXISTS ONLY public.endpoints DROP CONSTRAINT IF EXISTS endpoints_pkey;

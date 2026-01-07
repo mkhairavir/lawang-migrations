@@ -1,0 +1,15 @@
+ALTER TABLE server_settings
+    DROP COLUMN notification_max_response_time,
+    DROP COLUMN notification_min_http_code,
+    DROP COLUMN email_to,
+    DROP COLUMN email_port,
+    DROP COLUMN email_host,
+    DROP COLUMN email_password,
+    DROP COLUMN email_username,
+    DROP COLUMN email_enable_notification,
+    DROP COLUMN telegram_trade_id,
+    DROP COLUMN telegram_enable_notification,
+    DROP COLUMN wa_api_key,
+    DROP COLUMN wa_scan_qr,
+    DROP COLUMN wa_number,
+    DROP COLUMN wa_enable_notification;

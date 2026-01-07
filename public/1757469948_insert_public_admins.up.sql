@@ -1,0 +1,1 @@
+INSERT INTO public.admins VALUES ('02bb6708-50e0-400b-8191-631f66512a96', true, '2025-09-10 02:03:11.74471+00', '2025-09-10 02:03:11.74471+00', NULL, NULL, NULL, NULL, 'adminlawang', '$argon2id$v=19$m=65536,t=3,p=4$CYeoIvlg32lFN8cyauoApw$RMD2aVFtR+QF5GhRVFJO65mGKowCaa9wLhGEXmAwCpQ', 'Super Admin', NULL, '194cccb1-7fef-45b1-82a7-673f5fa0242c');

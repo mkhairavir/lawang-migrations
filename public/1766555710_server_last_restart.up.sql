@@ -1,0 +1,2 @@
+ALTER TABLE servers
+    ADD COLUMN last_boot TIMESTAMP WITH TIME ZONE;
