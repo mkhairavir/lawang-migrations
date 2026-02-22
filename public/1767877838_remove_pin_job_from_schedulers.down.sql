@@ -1,0 +1,3 @@
+ALTER TABLE schedulers
+    DROP COLUMN server_id,
+    ADD COLUMN pin_job BOOLEAN DEFAULT FALSE;

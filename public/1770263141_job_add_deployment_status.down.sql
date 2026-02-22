@@ -1,0 +1,2 @@
+ALTER TABLE jobs
+    DROP COLUMN cron_script VARCHAR(64);
