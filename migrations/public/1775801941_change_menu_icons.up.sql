@@ -1,0 +1,12 @@
+UPDATE menus SET icon = 'Home' WHERE icon = 'fi - FiHome';
+UPDATE menus SET icon = 'Server' WHERE icon = 'fi - FiServer';
+UPDATE menus SET icon = 'GitBranch' WHERE icon = 'go - GoVersions';
+UPDATE menus SET icon = 'ShieldCheck' WHERE icon = 'md - MdOutlinePolicy';
+UPDATE menus SET icon = 'Webhook' WHERE icon = 'gi - GiSpiderWeb';
+UPDATE menus SET icon = 'Settings2' WHERE icon = 'md - MdElectricalServices';
+UPDATE menus SET icon = 'Clock' WHERE icon = 'Fi - FiClock';
+UPDATE menus SET icon = 'Users' WHERE icon = 'md - MdOutlinePeopleAlt';
+UPDATE menus SET icon = 'Settings' WHERE icon = 'bs - BsServer';
+UPDATE menus SET icon = 'Upload' WHERE icon = 'fi - FiUpload';
+UPDATE menus SET icon = 'ShieldCheck' WHERE icon = 'fa - FaUsersCog';
+UPDATE menus SET icon = 'Info' WHERE icon = 'fa - FaInfo';
