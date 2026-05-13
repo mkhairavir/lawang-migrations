@@ -1,0 +1,2 @@
+ALTER TABLE licenses 
+ADD COLUMN for_scheduler BOOLEAN DEFAULT FALSE;
