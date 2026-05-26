@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS public.agents (
     CONSTRAINT agents_pkey PRIMARY KEY (id)
 );
 
-INSERT INTO public.menus (id, active, created_at, updated_at, created_by, updated_by, deleted_at, deleted_by, "label", icon, code, parent_id, href, is_showable, order_number) VALUES('f1a93524-5bc0-4916-9d7e-6cb39b207546', true, '2026-03-25 23:54:28.541', '2026-03-25 23:54:28.541', NULL, NULL, NULL, NULL, 'Agents', '', 'agent', 'd512271c-5dbe-4f3b-a2c6-51ed6da3b60d', '/scheduler/agent', true, 4);
+INSERT INTO public.menus (id, active, created_at, updated_at, created_by, updated_by, deleted_at, deleted_by, "label", icon, code, parent_id, href, is_showable, order_number) VALUES('f1a93524-5bc0-4916-9d7e-6cb39b207546', true, '2026-03-25 23:54:28.541', '2026-03-25 23:54:28.541', NULL, NULL, NULL, NULL, 'Agents', '', 'agents', 'd512271c-5dbe-4f3b-a2c6-51ed6da3b60d', '/scheduler/agent', true, 4);
 
 INSERT INTO public.permissions (id, active, created_at, updated_at, created_by, updated_by, deleted_at, deleted_by, user_group_id, menu_id, permission_id, writable, viewable, editable, deletable) VALUES('9053ca1c-2da8-496d-8d95-7a7ab6e45c11', true, '2026-03-25 23:54:28.587', '2026-03-25 23:55:10.391', NULL, NULL, NULL, NULL, '194cccb1-7fef-45b1-82a7-673f5fa0242c', 'f1a93524-5bc0-4916-9d7e-6cb39b207546', '', true, true, true, true);
 
