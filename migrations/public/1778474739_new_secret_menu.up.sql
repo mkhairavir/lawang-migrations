@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS public.secrets (
     secret VARCHAR(128) NOT NULL 
 );
 
-INSERT INTO public.menus (id, active, created_at, updated_at, created_by, updated_by, deleted_at, deleted_by, "label", icon, code, parent_id, href, is_showable, order_number) VALUES('a175b88e-1611-444f-9532-8390172bb335', true, '2026-05-11 23:54:28.541', '2026-05-11 23:54:28.541', NULL, NULL, NULL, NULL, 'Secret', 'KeyRound', 'secret', '', '/secret', true, 1);
+INSERT INTO public.menus (id, active, created_at, updated_at, created_by, updated_by, deleted_at, deleted_by, "label", icon, code, parent_id, href, is_showable, order_number) VALUES('a175b88e-1611-444f-9532-8390172bb335', true, '2026-05-11 23:54:28.541', '2026-05-11 23:54:28.541', NULL, NULL, NULL, NULL, 'Secret', 'KeyRound', 'secret', '', '/secret', true, 8);
 
 INSERT INTO public.permissions (id, active, created_at, updated_at, created_by, updated_by, deleted_at, deleted_by, user_group_id, menu_id, permission_id, writable, viewable, editable, deletable) VALUES('f0d69320-30bd-46d9-9dda-714b479a523e', true, '2026-05-11 23:54:28.587', '2026-05-11 23:55:10.391', NULL, NULL, NULL, NULL, '194cccb1-7fef-45b1-82a7-673f5fa0242c', 'a175b88e-1611-444f-9532-8390172bb335', '', true, true, true, true);
 
