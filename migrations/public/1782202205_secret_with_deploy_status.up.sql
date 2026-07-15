@@ -1,0 +1,2 @@
+ALTER TABLE public.secrets
+    ADD COLUMN IF NOT EXISTS is_deployed BOOLEAN DEFAULT FALSE;

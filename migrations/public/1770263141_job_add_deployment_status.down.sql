@@ -1,2 +1,2 @@
 ALTER TABLE jobs
-    DROP COLUMN cron_script VARCHAR(64);
+    DROP COLUMN IF EXISTS cron_script;

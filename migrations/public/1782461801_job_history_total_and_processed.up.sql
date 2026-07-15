@@ -1,0 +1,3 @@
+ALTER TABLE public.job_histories
+    ADD COLUMN IF NOT EXISTS total INT8 DEFAULT 0,
+    ADD COLUMN IF NOT EXISTS processed INT8 DEFAULT 0;
