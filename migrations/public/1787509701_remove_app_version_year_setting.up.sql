@@ -1,0 +1,2 @@
+DELETE FROM public.settings
+WHERE param IN ('LAWANG_APP_VERSION', 'LAWANG_APP_YEAR');
